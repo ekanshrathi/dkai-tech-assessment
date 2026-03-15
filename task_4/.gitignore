@@ -1,0 +1,8 @@
+# Create .gitignore to skip Mac/Python clutter
+echo "__pycache__/
+.DS_Store
+*.pyc" > .gitignore
+
+git add .gitignore
+git commit -m "add gitignore"
+git push
